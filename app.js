@@ -1,9 +1,32 @@
-console.log("hey");
-var Username = prompt("give me username")
-var WelcomeMessage = "this script works.." + Username;
-alert(WelcomeMessage);
 var btnTranslate = document.querySelector("#btn-translate");
-console.log(btnTranslate);
-btnTranslate.addEventListenerpredifined{"click".function clickEventHandler() {
-    console.log("clicked")
-} }
+var txtInput = document.querySelector("#txt-input");
+var outputId = document.querySelector("#output-id");
+
+
+function clickHandler(){
+    console.log(txtInput);
+    console.log("clicked");
+    console.log(outputId);
+    console.log("input" , txtInput.value)
+    outputId.innerText = "jhjhjhjkh "+txtInput.value ;
+    
+};
+btnTranslate.addEventListener("click",clickHandler)
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
