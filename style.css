@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+body{
+  font-family: 'PT Sans', sans-serif;
+}
+:root{
+  --primary-color:#147AEF;
+  --dark-grey: #6B7280;
+  --off-white: #D1D5DB;
+}
+.container{
+  padding-left : 1rem;
+  padding-right: 1rem;
+}
+.container-center{
+  max-width: 600px;
+  margin: auto;
+}
+.link{
+  text-decoration: none;
+  padding: 2rem 2rem;
+}
+.link-primary{
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background-color: var(--primary-color);
+  border-radius: 3rem 2rem;
+  color: white;
+}
+.link-secondary{
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: var (--primary-color);
+  border-radius: 3rem 2rem;
+  border: 1px solid var(--primary-color);
+}
+hr{
+  margin: 2rem 0rem;
+}
+.list-non-bullet{
+  list-style: none;
+}
+.list-item-inline{
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+.navigation{
+  background-color: var(--primary-color);
+  color: black;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.navigation.nav-brand{
+  font-weight: bolder;
+  font-size: 2.1rem;
+  color: aliceblue;
+}
+.navigation .nav-pills{
+  text-align: right;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+.navigation.link{
+   box-sizing: border-box;
+   font-size: 1.2rem ;
+   font-weight: bolder;
+   color: white;
+   text-align: center;
+ 
+}
+.hero{
+  padding: 1rem;
+}
+.hero .hero-img{
+  width: 350px;
+  
+  display: block;
+  margin: auto;
+}
+
+.hero .hero-heading{
+  font-size: 2.1rem;
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 1rem;
+  color: var(--dark-grey);
+}
+.hero .hero-heading .heading-inverted{
+  color: var(--primary-color)
+}
+
+
+.section{
+  padding: 3rem 2rem;
+}
+.section h1{
+  text-align: center;
+}
+.ow{
+   background-color: var(--off-white);
+}
+.footer{
+  background-color:  var(--primary-color);
+  padding: 3rem 2rem;
+  text-align: center;
+  color:black;
+  border-top-right-radius: 1rem;
+
+}
+.footer-header{
+  font-size: large;
+  font-weight: bold;
+}
+ .footer .link{
+   color: black;
+ }
